@@ -16,7 +16,7 @@ function calculateChristmasCountdown() {
     nextChristmasYear += 1;
   }
 
-  const nextChristmasDate = `May 17, ${nextChristmasYear} 10:0:0`;
+  const nextChristmasDate = `May 19, ${nextChristmasYear} 10:0:0`;
   const christmasDate = new Date(nextChristmasDate);
   const timeLeft = christmasDate - now; // in milliseconds
 
